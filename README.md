@@ -1,7 +1,7 @@
 # 🏦 Bank of C++ - Console Banking System
 
 ## 🚀 Overview
-A fully functional console-based banking application built in C++ featuring core banking operations with modern emoji-enhanced UI, PIN security, and efficient data management using `std::map`. Users can create accounts, perform transactions, and manage profiles securely.[web:1][web:11]
+A fully functional console-based banking application built in C++ featuring core banking operations with modern emoji-enhanced UI, PIN security, and efficient data management using `std::map`. Users can create accounts, perform transactions, and manage profiles securely.
 
 ## ✨ Features
 - Account creation with auto-generated numbers (starting 1001) and timestamps
@@ -9,7 +9,7 @@ A fully functional console-based banking application built in C++ featuring core
 - Deposits, withdrawals (insufficient funds protection), and account-to-account transfers
 - Balance checks, profile editing, and full account listing
 - Smart UX: Remembers last account; colored ANSI styling with dividers
-- In-memory persistence with O(log n) lookups via `std::map<int, Account>`[web:5]
+- In-memory persistence with O(log n) lookups via `std::map<int, Account>`
 
 ## 🏗️ Architecture
 
@@ -18,7 +18,7 @@ A fully functional console-based banking application built in C++ featuring core
 |-----------|---------|------------------|
 | `Account` | Data holder | `accountNumber`, `balance`, `pin`, `creationDate` |
 | `Bank` | Main logic | Private `map`, `verifyPIN()`, `promptAccountNumber()` |
-| Helpers | UI/utils | `styledTitle()`, `displayTime()` with `put_time()`[web:4] |
+| Helpers | UI/utils | `styledTitle()`, `displayTime()` with `put_time()` |
 
 Follows OOP encapsulation with private data access via public methods.
 
@@ -26,11 +26,10 @@ Follows OOP encapsulation with private data access via public methods.
 // Compile with: g++ -std=c++11 bank.cpp -o bank
 // Run: ./bank
 
-text
 1. Enter name to start
 2. Choose option 1 to create account (sets PIN, initial deposit)
 3. Use account number + PIN for operations
-4. Exit with option 9[web:11]
+4. Exit with option 9
 
 ## 🎨 UI Demo
 🧭 🏦 Main Menu 🧭
@@ -74,7 +73,7 @@ text
 - Transaction history logging
 - Multi-user sessions
 - Interest calculation
-- Database integration[web:12]
+- Database integration
 
 ## Author
 Shobhit Singh
