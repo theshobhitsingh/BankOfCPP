@@ -32,16 +32,16 @@ Follows OOP encapsulation with private data access via public methods.
 4. Exit with option 9
 
 ## 🎨 UI Demo
-🧭 🏦 Main Menu 🧭
-1️⃣ Open New Account
-2️⃣ Check Balance
-3️⃣ Deposit Money
-4️⃣ Withdraw Money
-5️⃣ Transfer Money
-6️⃣ List All Accounts
-7️⃣ Close Account
-8️⃣ Edit Profile
-9️⃣ Exit
+🧭 🏦 Main Menu 🧭 <br>
+1️⃣ Open New Account <br>
+2️⃣ Check Balance <br>
+3️⃣ Deposit Money <br>
+4️⃣ Withdraw Money <br>
+5️⃣ Transfer Money <br>
+6️⃣ List All Accounts <br>
+7️⃣ Close Account <br>
+8️⃣ Edit Profile <br>
+9️⃣ Exit <br>
 
 🔍 Choose an option (1-9):
 
@@ -51,16 +51,16 @@ Follows OOP encapsulation with private data access via public methods.
 
 
 ### Smart Account Prompt
-- Offers last created account for convenience
-- Falls back to manual entry if declined
+- Offers last created account for convenience <br>
+- Falls back to manual entry if declined <br>
 
 ### Time Formatting
 
 ## 📊 Error Handling
-- Invalid inputs (negative amounts, wrong PINs)
-- Account existence checks before operations
-- Insufficient funds prevention
-- Graceful fallbacks in menu loops
+- Invalid inputs (negative amounts, wrong PINs) <br>
+- Account existence checks before operations <br>
+- Insufficient funds prevention <br>
+- Graceful fallbacks in menu loops <br>
 
 ## ⚙️ Technical Specs
 - **C++ Standard**: C++11+ (`put_time`, `numeric_limits`)
@@ -69,11 +69,11 @@ Follows OOP encapsulation with private data access via public methods.
 - **Terminal**: ANSI colors (Linux/Mac; Windows may need config)
 
 ## 🚀 Future Enhancements
-- File persistence (JSON/CSV)
-- Transaction history logging
-- Multi-user sessions
-- Interest calculation
-- Database integration
+- File persistence (JSON/CSV) <br>
+- Transaction history logging <br>
+- Multi-user sessions <br>
+- Interest calculation <br>
+- Database integration <br>
 
 ## Author
 Shobhit Singh
