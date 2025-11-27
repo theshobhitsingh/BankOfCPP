@@ -1,4 +1,5 @@
-# <image href = "https://github.com/theshobhitsingh/BankOfCPP/blob/main/C++%20Bank%20Project.png?raw=true">
+![Bank of C++ Console Banking System](https://github.com/theshobhitsingh/BankOfCPP/blob/main/C++%20Bank%20Project.png?raw=true)
+
 # 🏦 Bank of C++ - Console Banking System
 
 ## 🚀 Overview
